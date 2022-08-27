@@ -41,7 +41,7 @@
 }
 
 .conteudo {
-    margin-bottom: 48px;
+    margin-bottom: 0px;
     border-top: 0.4px solid #19101A;
 }
 
@@ -78,7 +78,7 @@
     height: 60px;
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    border-radius: 10px;
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -99,12 +99,42 @@
     border-radius: 50%;
 }
 
+.conteudo-secundario-imagem {
+    height: 320px;
+    width: 320px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
 .conteudo-secundario {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 600px;
     gap: 24px;
-    margin-top: 68px;
+    margin-top: 170px;
+    background-color: #19101A;
+}
+
+.conteudo-secundario-html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    gap: 24px;
+    margin-top: 170px;
+    background-color: #19101A;
+}
+
+.conteudo-secundario-css {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    gap: 24px;
+    margin-top: 170px;
+    background-color: #19101A;
 }
 
 .conteudo-secundario-titulo {
@@ -113,19 +143,41 @@
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 24px;
-    color: #1C0F17;
-    margin-bottom: 16px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    margin-top: 30px;
 }
 
 .conteudo-secundario-paragrafo {
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    color: #1C0F17;
+    color: #FFFFFF;
 }
 
+.conteudo-secundario-paragrafo-html {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-secundario-paragrafo-css {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
 .rodape {
-    padding: 32px;
+    padding: 22px;
     border-top: 0.4px solid #19101A;
 }
 
