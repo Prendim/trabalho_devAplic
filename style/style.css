@@ -19,7 +19,7 @@
 .cabecalho-imagem {
     height: 32px;
     color: #FFFFFF;
-    margin-right: 65rem;
+    margin-right: 55rem;
 }
 
 
@@ -45,9 +45,7 @@
 .cabecalho-menu-item:hover {
     color: #623e66;
     transform-style: initial;
-    animation: zoom 300ms ease-in;
     transition-duration: 1s;
-    animation-duration: 1s;
 }
 
 .cabecalho-imagem:hover{
@@ -111,9 +109,10 @@
 }
 
 .conteudo-principal-imagem {
-    height: 320px;
-    width: 320px;
+    height: 360px;
+    width: 360px;
     margin-top: 90px;
+    margin-right: 70px;
     border-radius: 50%;
 }
 

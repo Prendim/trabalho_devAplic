@@ -19,21 +19,25 @@
     <main class="conteudo">
         <section class="conteudo-principal">
           <div class="conteudo-principal-escrito">
-            <h1 class="conteudo-principal-escrito-titulo">BUTTON</h1>
-            <h2 class="conteudo-principal-escrito-subtitulo">A tag <i><strong>BUTTON</strong></i> define um botão clicável. <br> Dentro
-            desta tag é possível colocar texto (ou tags como i, b, br, strong, etc). <br> É importante lembrar de sempre 
-            especificar o <i><strong>type</strong></i> deste elemento. <br><br>
-            Abaixo temos um exemplo desta tag!  </h2>
-            <button class="conteudo-principal-escrito-botao" onclick="window.location.href = 'https://www.w3schools.com/tags/tag_button.asp'">Clique aqui!</button>
+            <h1 class="conteudo-principal-escrito-titulo">MAP</h1>
+            <h2 class="conteudo-principal-escrito-subtitulo">A tag <i><strong>MAP</strong></i> define uma área mapeável para uma imagem. <br> Dentro
+            desta tag é possível colocar outra chamada <i><strong>AREA</strong></i>, <br>e ela da coordenadas para as demais imagens. <br><br><br>
+            Quer saber mais sobre esta TAG?!  </h2>
+            <button class="conteudo-principal-escrito-botao" onclick="window.location.href = 'https://www.w3schools.com/tags/tag_map.asp'">Clique aqui!</button>
           </div>
-          <img class="conteudo-principal-imagem" src="images/coding.gif">
+          <img src="/images/workplace.jpeg" alt="Workplace" usemap="#workmap" width="400" height="379">
+          <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" href="computer.htm">
+            <area shape="rect" coords="290,172,333,250" href="phone.htm">
+            <area shape="circle" coords="337,300,44" href="coffee.htm">
+          </map>
         </section>
         <section class="conteudo-secundario-html">
             <h3 class="conteudo-secundario-titulo">Abaixo estão algumas <i><strong>TAGS HTML</strong></i> que iremos explicar:</h3>
             <a href="button.html" class="conteudo-secundario-paragrafo-html"><strong>BUTTON</strong></a>
             <a href="map.html" class="conteudo-secundario-paragrafo-html"><strong>MAP</strong></a>
             <a href="#" class="conteudo-secundario-paragrafo-html"><strong>OPTGROUP</strong></a>
-            <a href="big.html" class="conteudo-secundario-paragrafo-html"><strong>BIG</strong></a>
+            <a href="#" class="conteudo-secundario-paragrafo-html"><strong>BIG</strong></a>
             <a href="#" class="conteudo-secundario-paragrafo-html"><strong>CANVAS</strong></a>
             <a href="#" class="conteudo-secundario-paragrafo-html"><strong>SPAN</strong></a>
           </section>
