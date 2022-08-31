@@ -11,6 +11,10 @@ h2 {
     text-align: justify;
 }
 
+.fonte-maior {
+    font-size: 85px;
+}
+
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -239,11 +243,10 @@ ul {
 
 .rodape {
     padding: 22px;
-    border-top: 0.4px solid #19101A;
 }
 
 .rodape-imagem {
-    height: 48px;
+    height: 45px;
     display: block;
     margin: 0 auto;
   
