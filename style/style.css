@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+h2 {
+    text-align: justify;
+}
+
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -109,11 +113,18 @@
 }
 
 .conteudo-principal-imagem {
-    height: 360px;
-    width: 360px;
+    height: 320px;
+    width: 320px;
     margin-top: 90px;
-    margin-right: 70px;
+    margin-right: 50px;
     border-radius: 50%;
+}
+
+.conteudo-principal-imagem-grid {
+    height: 320px;
+    width: 410px;
+    margin-top: 90px;
+    border-radius: 10px;
 }
 
 .conteudo-secundario-imagem {
@@ -211,6 +222,18 @@ ul {
     font-size: 18px;
     text-transform: uppercase;
     margin-left: 50px;
+}
+
+.selecao {
+    color: #19101A;
+    border: .5px solid #19101A;
+    border-radius: 3px;
+}
+
+.grupo-selecao {
+    color: #FFFFFF;
+    background-color: #19101A;
+    border-radius: 3px;
 }
 
 
